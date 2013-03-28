@@ -20,9 +20,9 @@
 ;; This is version 1.0 of 21 August 2002.
 
 ;;; Version: 1.0
-;;; Comentary:
+;;; Commentary:
 
-;; The batch-mode provides syntax hilighting and auto-indentation for
+;; The batch-mode provides syntax highlighting and auto-indentation for
 ;; DOS batch files (.bat).
 
 ;;; Author: Agnar Renolen <agnar.renolen@emap.no>
@@ -43,7 +43,7 @@
   "Keymap used with batch code")
 
 (defcustom batch-indent-level 4
-  "Amount by which batch subexpressions are indented."
+  "Amount by which batch sub-expressions are indented."
   :type 'integer
   :group 'batch)
 
